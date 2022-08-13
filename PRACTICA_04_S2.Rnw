@@ -1,0 +1,82 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\begin{center}\textbf{UNIVERSIDAD DE EL SALVADOR.} \end{center}
+\begin{center}\textbf{FACULTAD MULTIDISCIPLINARIA DE OCCIDENTE.} \end{center}
+\begin{center}\textbf{DEPARTAMENTO DE MATEMATICAS.} \end{center}
+\begin{center}\includegraphics[width=0.4\textwidth]{251} \end{center}
+\begin{center} PRACTICA 4. SEMANA 2\end{center}
+\vspace{0.5cm}
+\begin{center}\textbf{CARRERA:} \end{center}
+\begin{center}\textbf{LICENCIATURA EN ESTADISTICA.} \end{center}
+\vspace{0.5cm}
+\begin{center}\textbf{ASIGNATURA:} \end{center}
+\begin{center}\textbf{ANALISIS ESTADISTICO CON EL PAQUETE R} \end{center}
+\vspace{0.5cm}
+\begin{center}\textbf{DOCENTE:} \end{center}
+\begin{center}\textbf{JAIME ISAAC PEÑA} \end{center}
+\vspace{0.5cm}
+\begin{center}\textbf{PRESENTADO POR:} \end{center}
+\begin{center}\textbf{NELSON DE JESUS MAGAÑA GODINEZ} \end{center}
+\vspace{0.5cm}
+\begin{center}\textbf{FECHA:} \end{center}
+\begin{center}\textbf{11 AGOSTO DE 2022} \end{center}
+\newpage
+Generalmente los datos suelen leerse desde archivos externos y no teclearse desde la consola. Las capacidades de lectura de archivos de R son sencillas y sus requisitos son bastante estrictos, por lo que hay que tenerlas muy en cuenta, de lo contrario los resultados en la lectura no serán los
+esperados.
+
+\section{USO DE LA FUNCIÓN READ.TABLE().}
+
+Leeremos los datos contenidos en el archivo "datos01.txt" (el procedimiento para el archivo “datos01.dat" es similar).
+\vspace{0.3cm}
+
+- Para importar los datos. En el Menú Datos elegimos el submenú Importar datos, y dentro de este seleccionamos la opción “desde archivo datos ....” Tal y como se muestra en la
+ilustración.
+\vspace{0.3cm}
+
+- Una vez realizado este procedimiento, nos mostrará el siguiente cuadro de dialogo, en el cual se indica la estructura que tiene el archivo (se indican de manera gráfica los parámetros de la función read.table) y el nombre que queremos darle al conjunto de datos.
+\vspace{0.3cm}
+
+- Posteriormente únicamente debemos elegir el archivo correspondiente en el cuadro que se muestra. El formato de los archivos pueden ser “.txt” o “.dat”.
+\vspace{0.3cm}
+
+- Finalmente para visualizar el conjunto de datos y asegurarnos que se han leído correctamente. Simplemente damos al clic al botón con la opción Visualizar conjunto de datos y se presentará un cuadro como el que se muestra en la siguiente figura (note que el nombre de la ventana corresponde al nombre que le fue asignado al conjunto de datos).
+\vspace{0.3cm}
+
+\section{IMPORTANDO DATOS DE EXCEL.}
+
+Si por el contrario los datos a los cuales deseamos realizar el análisis estadístico se encuentran en formato XLS (versión 2003 de Microsoft Excel), debemos de seguir los siguientes pasos (Ilustraremos el procedimiento con el archivo "contaminación\_mexico.xls"):
+\vspace{0.3cm}
+
+- Para importar los datos. En el Menú Datos elegimos el submenú Importar datos, y dentro de este seleccionamos la opción "desde archivo datos Excel ..." Tal y como se muestra en la ilustración.
+\vspace{0.3cm}
+
+Al realizar el procedimiento anterior se mostrará el cuadro de dialogo que se muestra en la siguiente figura. En el únicamente debemos especificar el nombre que le queremos dar al conjunto de datos que deseamos importar.
+\vspace{0.3cm}
+
+- Finalmente únicamente debemos elegir el archivo en el cual se encuentra el conjunto de datos que deseamos analizar.
+\vspace{0.3cm}
+
+- Para visualizar el conjunto de datos. Se da clic en el botón "Visualizar conjunto de datos", obteniendo el siguiente cuadro que se muestra en la figura siguiente.
+\vspace{0.3cm}
+
+\section{IMPORTAR DATOS DE SPSS HACIA R.}
+
+A parte de leer archivos en formato texto y delimitados por comillas, R permite leer datos en una gran variedad de formato entre ellos se encuentra archivos el formato de SPSS ".sav". 
+\vspace{0.3cm}
+
+-Para importar los datos. En el Menú Datos elegimos el submenú Importar datos, y dentro de este seleccionamos la opción "desde datos SPSS". Tal y como se muestra en la ilustración.
+\vspace{0.3cm}
+
+Al realizar el procedimiento anterior se mostrará el cuadro de dialogo que se muestra en la siguiente figura. En el únicamente debemos especificar el nombre que le queremos dar al conjunto de datos que deseamos importar. Y si deseamos convertir la etiquetas de valores a
+niveles de un factor (use.value.label=T).
+\vspace{0.3cm}
+
+- Finalmente únicamente debemos elegir el archivo en el cual se encuentra el conjunto de datos que deseamos analizar.
+\vspace{0.3cm}
+
+- Para visualizar el conjunto de datos. Se da clic en el botón "Visualizar conjunto de datos", obteniendo el siguiente cuadro que se muestra en la figura siguiente.
+
+\end{document}
